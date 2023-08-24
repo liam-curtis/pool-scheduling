@@ -10,7 +10,7 @@ public class Pool_Scheduling
 	{
 		
 		try{  
-			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/Pool_Scheduling","root","bobbles76");  
+			Connection con = DriverManager.getConnection("**jdbc server**","root","**password**");  
 			
 			Statement selectStatementEmployee = con.createStatement();
 			String query = "SELECT * FROM Employee;";
